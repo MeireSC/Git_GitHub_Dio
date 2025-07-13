@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Vampire Diaries – Site Acessível</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: row;
+    }
+    nav {
+      width: 260px;
+      background: #f0f0f5;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+    }
+    nav h2 { margin-top: 0; }
+    nav ul { list-style: none; padding: 0; }
+    nav a {
+      color: #004080;
+      text-decoration: none;
+      display: block;
+      margin: 8px 0;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    header, footer {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 4px;
+    }
+    .img-center {
+      display: block;
+      margin: 1rem auto;
+    }
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+      nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav aria-label="Menu principal">
+    <h2>Índice</h2>
+    <ul>
+      <li><a href="#introducao">Introdução</a></li>
+      <li><a href="#desenvolvimento">Desenvolvimento</a></li>
+      <li><a href="#sinopse">Sinopse</a></li>
+      <li><a href="#elenco">Elenco</a></li>
+      <li><a href="#producao">Produção</a></li>
+      <li><a href="#recepcao">Recepção</a></li>
+      <li><a href="#spin-offs">Spin-offs</a></li>
+      <li><a href="#referencias">Referências</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <header role="banner">
+      <h1>The Vampire Diaries</h1>
+      <p><em>Série de televisão americana de drama sobrenatural (2009–2017)</em></p>
+      <img src="L_1405406_eecfee6d.jpg" alt="Pôster promocional da série The Vampire Diaries">
+    </header>
+
+    <section id="introducao" role="region" aria-labelledby="introducao">
+      <h2>Introdução</h2>
+      <p><strong>The Vampire Diaries</strong> é uma série de televisão americana de drama sobrenatural e fantasia desenvolvida por Kevin Williamson e Julie Plec. A série é baseada na série literária homônima de L. J. Smith.</p>
+      <p>Estreou em 10 de setembro de 2009 na The CW e foi finalizada em 10 de março de 2017, após oito temporadas e 171 episódios.</p>
+    </section>
+
+    <section id="desenvolvimento" role="region" aria-labelledby="desenvolvimento">
+      <h2>Desenvolvimento</h2>
+      <p>A série foi originalmente desenvolvida em 2006, mas só ganhou vida após o sucesso da franquia <em>Crepúsculo</em> e outras obras de fantasia. Kevin Williamson inicialmente recusou a proposta, mas aceitou após ler os livros.</p>
+      <img src="The_Vampire_Diaries_TV_Logo.png" alt="Logo da série The Vampire Diaries" class="img-center">
+    </section>
+
+    <section id="sinopse" role="region" aria-labelledby="sinopse">
+      <h2>Sinopse</h2>
+      <p>A trama gira em torno de Elena Gilbert, uma adolescente que perde seus pais em um acidente de carro. Ela conhece Stefan Salvatore, um vampiro, e logo se vê envolvida em um mundo sobrenatural com bruxas, lobisomens, híbridos e outros vampiros, incluindo o irmão de Stefan, Damon.</p>
+    </section>
+
+    <section id="elenco" role="region" aria-labelledby="elenco">
+      <h2>Elenco Principal</h2>
+      <ul>
+        <li><strong>Elena Gilbert:</strong> Nina Dobrev</li>
+        <li><strong>Stefan Salvatore:</strong> Paul Wesley</li>
+        <li><strong>Damon Salvatore:</strong> Ian Somerhalder</li>
+        <li><strong>Bonnie Bennett:</strong> Kat Graham</li>
+        <li><strong>Caroline Forbes:</strong> Candice Accola</li>
+        <li><strong>Jeremy Gilbert:</strong> Steven R. McQueen</li>
+      </ul>
+      <img src="The_Vampire_Diaries_at_PaleyFest_2014.jpg" alt="Elenco principal da série no PaleyFest 2014" class="img-center">
+    </section>
+
+    <section id="producao" role="region" aria-labelledby="producao">
+      <h2>Produção</h2>
+      <p>As gravações aconteceram majoritariamente na Geórgia, EUA, especialmente na cidade de Covington. A produção contou com diversos diretores ao longo das temporadas e trilhas sonoras marcantes.</p>
+    </section>
+
+    <section id="recepcao" role="region" aria-labelledby="recepcao">
+      <h2>Recepção</h2>
+      <p>The Vampire Diaries foi amplamente popular entre adolescentes e jovens adultos, e recebeu vários prêmios como Teen Choice Awards e People's Choice Awards. A audiência do episódio piloto foi de 4,91 milhões de espectadores.</p>
+    </section>
+
+    <section id="spin-offs" role="region" aria-labelledby="spin-offs">
+      <h2>Spin-offs</h2>
+      <p>A série gerou dois spin-offs:</p>
+      <ul>
+        <li><strong>The Originals</strong> – centrado na família Mikaelson (2013–2018)</li>
+        <li><strong>Legacies</strong> – focado na filha de Klaus Mikaelson, Hope (2018–2022)</li>
+      </ul>
+    </section>
+
+    <footer id="referencias" role="contentinfo">
+      <h2>Referências</h2>
+      <p>Conteúdo adaptado da <a href="https://pt.wikipedia.org/wiki/The_Vampire_Diaries_(s%C3%A9rie_de_televis%C3%A3o)" target="_blank">Wikipédia</a>.</p>
+      <p>Imagens de <a href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikimedia Commons</a>.</p>
+    </footer>
+  </main>
+
+</body>
+</html>
